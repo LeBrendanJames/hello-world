@@ -1,10 +1,9 @@
 #include <iostream>
-
-using std::cout;
-using std::endl;
+#include "output.h"
 
 int main() {
-    cout << "Hello, World!" << endl;
-    
+    output();
+    // std::cout << "Hello, World!" << std::endl;
+
     return 0;
 }
